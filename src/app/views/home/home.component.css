@@ -1,0 +1,1151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* começo index */
+.container-fluid{
+    width:95vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 60%;
+    
+}
+.container-grid{
+    width:100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+
+.logoGame{
+    width: 80%;
+}
+
+#botoes2{
+    display: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+    width: 98%;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+    height: 100%;
+}
+
+
+#busca{
+    background-color: white;
+    border:0ch;
+    border-radius:10px;
+    width:400px;
+    height: 40px;
+    position: relative;
+    font-style:normal;
+    font-size:18px;
+    padding-left:5px;
+  }
+  
+
+.botoes{
+    position: relative;
+    
+}
+
+#botaoVermais {
+    display: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.icone-menu {
+    width: 60px;
+}
+
+#barras {
+    display: none;
+}
+
+.banner {
+    position: absolute;
+    right: 0px;
+    height: auto;
+    width: 100vw;
+}  
+
+.vejamais-banner {
+    position: relative;
+    top: 620px;
+    right: 2vh;
+}
+ 
+.vejamais-banner a{
+    display: flex;
+    justify-content: right ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+ }
+
+ main{
+    background-color: black;
+ }
+
+
+/* começo da loja */
+
+.comecoLoja{
+    display: flexbox;
+    height: 700px;
+}
+
+ .loja{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    position: relative;
+    top: 50px;
+ }
+
+ .loja h1{
+    display: flex;
+    justify-content: center ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+ }
+
+ .produtos01{
+
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+ }
+
+ .produtos h2{
+    display: flex;
+    justify-content: center ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+ .produtos p{
+    display: flex;
+    justify-content: center ;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+ }
+
+ .box{
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 213px;
+    width: 90%;
+    position: relative;
+ }
+
+ .conteudo-loja-textos {
+    height: 249px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.flechas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    position: relative;
+    top: 300px;
+    
+}
+
+.headphone{
+    position: relative;
+    left: -70px;
+}
+
+.xbox{
+    position: relative;
+    left: -20px;
+}
+
+.tela{
+    position: relative;
+    left: 30px;
+}
+
+.teclado{
+    position: relative;
+    left: 80px;
+}
+
+.botaocompreaqui{
+    position: relative;
+    width: 10vw;
+    top: 540px;
+    left: 70vw;
+    text-align: center;
+}
+
+.eldenring p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+#botaocompreaqui2{
+    display: none;
+}
+
+#caixaSearch2 {
+    display: none;
+}
+
+.logofinal{
+    text-align: center;
+    position: relative;
+    top: 600px;
+    left: 0px;
+}
+
+#logofinal2 {
+    display: none;
+}
+
+
+footer{
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    top: 200px;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.dados{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 18vw;
+}
+
+.contato{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 18vw;
+}
+
+
+.contato1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 18vw;
+}
+
+.atendimento{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 18vw;
+}
+
+.atendimento1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 18vw;
+}
+
+.ondeestamos{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    width: 18vw;
+    height: 1vh;
+}
+
+.redessociais{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+   text-align: center;
+    padding: 25px;
+    height: 1vh;
+    width: 18vw;
+}
+.footer{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 650px;
+    right: 180px;
+    justify-content: space-between;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.container1 {
+    align-items: center;
+	margin: 1vw 1vw;
+	display: flex;
+	border: none;
+}
+.container2 {
+	max-height: 100px;
+	margin: 0 auto;
+	display: flex;
+	border: none;
+}
+
+.container3 {
+	max-height: 100px;
+	margin: 0 auto;
+	display: flex;
+	border: none;
+}
+
+.item {
+	
+	flex: 1;
+	margin: 5px;
+	background: rgba(8, 64, 62, 0.5);
+	text-align: center;
+}
+
+.item1 {
+	
+	flex: 1;
+	margin: 5px;
+	background: none;
+	text-align: center;
+}
+
+.mapa{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.redessociais2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+   
+}
+
+.redessociais3 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+} 
+
+#colunasIpad{
+    display: none;
+   }
+
+.fundo{
+    background-color: black;
+}
+
+.diagramacao{
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ 
+
+@media screen and (max-width: 1024px) {
+    .container-fluid {
+        width: 90vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #barras {
+        display: inline-block;
+        
+    }
+
+    #botoes2{
+        display: none;
+    }
+
+    .logoGame{
+        width: 80%;
+    }
+    .banner{
+        position: absolute;
+        width: 100%;
+    }
+
+    .vejamais-banner {
+        position: relative;
+        top: 450px;
+        right: 0vh;
+    }
+
+    .vejamais-banner a{
+        font-size: 15px;
+    }
+
+    .comecoLoja{
+        display: flexbox;
+        height: 500px;
+    }
+
+    .links {
+        position: relative;
+        left: 10px;
+    }
+    
+    .loja h1{
+        font-size: 25px;
+    }
+
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 50px;
+        right:10px;
+
+        height: 300px;
+        width: 100vw;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+    .comecoDados{
+        position: relative;
+        top:330px;
+    }
+    
+    .comecoFooter{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 300px;
+        left: 0px;
+        justify-content: space-between;
+    }
+    .botaocompreaqui{
+        position: relative;
+        width: 10vw;
+        top: 370px;
+        left: 87vw;
+        text-align: center;
+    }
+    
+    #caixaSearch{
+        display: none;
+    }
+
+    #botaocompreaqui2{
+        display: none;
+    }
+
+    #caixaSearch2 {
+        display: grid;
+
+    }
+
+    .caixaSearch2{
+
+        position: relative;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        top: 100px;
+    }
+
+    #logofinal{
+        display: none;
+    }
+
+    #logofinal2 {
+        display: grid;
+    }
+    
+    .logofinal2{
+         position: absolute;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        top: 180vh;
+    }
+
+    footer{
+        background-color: black;
+        width: 100%;
+        height: 300vh;
+    }
+
+    .footer{
+        position: relative;
+        width: 100px;
+        height: auto;
+        top: 180px;
+        left: 10px;
+        justify-content: space-between;
+    }
+
+    #flechas{
+        display: none;
+    }
+
+    #botaoVermais {
+        display: grid;
+    }
+
+    .botaoVermais{
+        position: relative;
+
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       top: -50px;
+
+    }
+    #colunasDesktop{
+        display: none;
+        top:500px;
+    }
+  
+    .column {
+        flex-direction: column;
+    }
+
+   #colunasIpad{
+    display:contents;
+   }
+
+   .dados{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: auto;
+
+    position: relative;
+    top: 3vh;
+    left: 0px;
+}
+
+.contato{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 310px;
+
+    position: relative;
+    top: 3vh;
+    left: 0px;
+}
+
+
+.contato1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 310px;
+
+    position: relative;
+    top: 3vh;
+    left: 0px;
+}
+
+.atendimento{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 99vw;
+
+    position: relative;
+    top: -0vh;
+    left: -9px;
+}
+
+.atendimento1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 99vw;
+
+    position: relative;
+    top: 2vh;
+    left:-4px;
+}
+
+.ondeestamos{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    width: 99vw;
+
+    position: relative;
+    left: -10px;
+    top: 0;
+}
+
+.redessociais{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    height: 1vh;
+    width: 99vw;
+    position: relative;
+    top: 0vh;
+    left: -10px;
+}
+
+
+
+.item {
+	position: relative;
+    align-items: center;
+	
+}
+
+.item1 {
+	position: relative;
+    justify-items: center;
+	flex: 2;
+	margin: 40px;
+	background: none;
+    top: -1vh;
+    left: 200px;
+
+}
+
+.item2 {
+	position: relative;
+    justify-items: center;
+	flex: 2;
+	margin: 40px;
+	background: none;
+    top: -1vh;
+}
+
+.mapa{
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+     left: 35vw;
+     top: 3vh;
+}
+}
+
+@media screen and (max-width: 428px) {
+    .container-fluid {
+        width: 90vw;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-grid{
+        display: flex;
+        width:90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 98%;
+        align-items: center;
+    }
+    
+    #barras {
+        display: inline-block;
+        
+    }
+
+    .logoGame{
+        width: 50%;
+    }
+
+   #botoes{
+    display: none;
+   }
+
+   #botoes2{
+    display: flex;
+   }
+
+   .botoes2{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+   }
+
+   .icone-menu{
+    position: absolute;
+    width: 40px;
+    left: -15px;
+    top: 0px;
+   }
+
+    .banner{
+        position: absolute;
+        width: 100%;
+    }
+
+    .vejamais-banner {
+        position: relative;
+        top: 180px;
+        right: -20px;
+    }
+
+    .vejamais-banner a{
+        font-size: 15px;
+    }
+
+    .comecoLoja{
+        display: flexbox;
+        height: 170px;
+    }
+
+    .links {
+        position: relative;
+        left: 10px;
+    }
+    
+
+    .loja h1{
+        font-size: 15px;
+    }
+
+    #fotosLoja{
+        width: 135px;
+    }
+    .produtos{
+        position: relative;
+        height: 800px;
+        top:400px;
+    }
+
+   
+    .box{
+        background-color: rgba(8, 64, 62, 0.5);
+        padding: 25px;
+        height: 150px;
+        width: 60%;
+        position: relative;
+        top:10px
+    }
+
+    .box H2{
+        position: relative;
+        top: -30px;
+        font-size: 11px;
+    }
+
+    .box p{
+        position: relative;
+        top: -30px;
+        font-size: 12px;
+    }
+    .produtos01{
+
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+     }
+
+     .xbox{
+        position: relative;
+        left: 160px;
+        top: -380px;
+     }
+
+     .tela{
+        position: relative;
+        top: -400px;
+        left: -22px;
+     }
+
+     .teclado{
+        position: relative;
+        top: -780px;
+        left: 160px;
+     }
+
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 50px;
+        right:10px;
+
+        height: 300px;
+        width: 100vw;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+    .comecoDados{
+        position: relative;
+        top:20px;
+    }
+    
+    .comecoFooter{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 5px;
+        left: 0px;
+        justify-content: space-between;
+    }
+    .botaocompreaqui{
+        position: relative;
+        top: 100px;
+        left: 80vw;
+        text-align: center;
+    }
+    
+    #caixaSearch{
+        display: none;
+    }
+
+
+    #caixaSearch2 {
+        display: grid;
+
+    }
+
+    .caixaSearch2{
+
+        position: relative;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        top: 100px;
+    }
+
+    #logofinal{
+        display: none;
+    }
+
+    #logofinal2 {
+        display: grid;
+    }
+    
+    .logofinal2{
+         position: absolute;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        top: 200vh;
+    }
+
+    footer{
+        background-color: black;
+        width: 100%;
+        height: 270vh;
+    }
+
+    .footer{
+        position: relative;
+        width: 100px;
+        height: auto;
+        top: 180px;
+        left: 10px;
+        justify-content: space-between;
+    }
+
+    #flechas{
+        display: none;
+    }
+
+    #botaoVermais {
+        display: grid;
+    }
+
+    .botaoVermais{
+        position: relative;
+
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       top: -860px;
+
+    }
+    #botaocompreaqui2{
+        position: relative;
+        display: grid;
+        top:10px;
+        left: 20px;
+    }
+
+    .botaocompreaqui p{
+        font-size: 11px;
+    }
+
+    #botaocompreaqui{
+        display: none;
+    }
+    #colunasDesktop{
+        display: none;
+        top:500px;
+    }
+  
+    .column {
+        flex-direction: column;
+    }
+
+   #colunasIpad{
+    display:contents;
+   }
+
+   .dados{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+
+    position: relative;
+    top:230px;
+    left: -26px;
+}
+
+.contato{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+
+    position: relative;
+    top: -210px;
+    left: -26px;
+}
+
+
+.contato1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 420px;
+
+    position: relative;
+    top: -200px;
+    left: -26px;
+}
+
+.atendimento{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+
+    position: relative;
+    top: -0vh;
+    left: -9px;
+}
+
+.atendimento1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(8, 64, 62, 0.5);
+    padding: 25px;
+    height: auto;
+    width: 420px;
+
+    position: relative;
+    top: 2vh;
+    left:-4px;
+}
+
+.ondeestamos{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    width: 420px;
+
+    position: relative;
+    left: -10px;
+    top: 0;
+}
+
+.redessociais{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: rgba(8, 64, 62, 0.5);
+    text-align: center;
+    padding: 25px;
+    height: 1vh;
+    width: 420px;
+    position: relative;
+    top: 0vh;
+    left: -10px;
+}
+
+
+
+.item {
+	position: relative;
+    align-items: center;
+	
+}
+
+.item1 {
+	position: relative;
+    justify-items: center;
+	flex: 2;
+	margin: 40px;
+	background: none;
+    top: -1vh;
+    left: 10px;
+
+}
+
+.item2 {
+	position: relative;
+    justify-items: center;
+	flex: 2;
+	margin: 40px;
+	background: none;
+    top: -1vh;
+}
+
+.mapa{
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+     left: 20vw;
+     top: 3vh;
+}
+}

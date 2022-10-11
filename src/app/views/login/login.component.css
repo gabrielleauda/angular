@@ -1,0 +1,58 @@
+/* pagina login */
+#email-example{
+    background-color: white;
+    border:0ch;
+    border-radius:10px;
+    width:400px;
+    height: 40px;
+    position: relative;
+    font-style:normal;
+    font-size:18px;
+    padding-left:5px;
+  }
+ 
+  header{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+  #password-example{
+    background-color: white;
+    border:0ch;
+    border-radius:10px;
+    width:400px;
+    height: 40px;
+    position: relative;
+    font-style:normal;
+    font-size:18px;
+    padding-left:5px;
+  }
+
+  .diagramacao{
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.formularioPagina{
+    color:black
+}
+
+.text1{
+    font-family:'Inter', sans-serif;
+    color:white;
+    line-height: 1.5;
+}
+
+.margin-top-8{
+    margin-top: 8px;
+}
+
+.margin-botton-8{
+    margin-top: 8px;
+}
+
+/* final pagina login */

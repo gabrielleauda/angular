@@ -1,0 +1,28 @@
+<header>
+    <div class="diagramacao">
+    <a href="gamemania.html"><img src="/assets/img/icone pagina.png" alt="Logo Game Mania"></a><br>
+        <h1>Login do usuário</h1>
+        <form (ngSubmit)="receberDados()" action="O q" method="post">
+        <input type="email" name="email" id="email-example" Placeholder="Digite seu e-mail" [(ngModel)]="userModel.email"><br><br>
+        <input type="password" id="password-example" name="senha" value=""  Placeholder="Digite sua senha" [(ngModel)]="userModel.password" > <br><br>
+        <input id="button" type="submit" value="Entrar"><br>
+    </form>
+
+    <ul class="login-utils">
+        <li class="margin-top-8 margin-botton-8"></li>
+            <span class=text1> Esqueceu sua</span>
+            <a href="#" class="text2">
+                senha?
+            </a>
+        <li>
+            <span class=text1> Não tem conta?</span>
+            <a href="#" class="text2">
+                Cadastre-se
+            </a>
+        </li>
+
+    </ul>
+
+
+    </div>
+ </header>

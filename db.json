@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "gabi@hotmail.com",
+      "password": "$2a$10$03z2GmmDbVC3aZrdnGjN7OmPHwPuJ6mt9Xi9XjGdohANTbfnotl/6",
+      "id": 1
+    },
+    {
+      "email": "gabisenai@email.com",
+      "password": "$2a$10$Ym0Gw5L1pl5qPOKM80fT5enhO07urQoLwWor8U.JNTbX.PQMOsOzW",
+      "id": 2
+    },
+    {
+      "email": "gabisenaiemail@email.com",
+      "password": "$2a$10$46cFJ6mOstxy9sgbxH4aDOuJgiqEwkWqGtuLk2zjSIXnskWMsTzJ.",
+      "id": 3
+    }
+  ]
+}
